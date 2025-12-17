@@ -20,6 +20,8 @@ The system ranks resumes based on relevance to job descriptions.
 ## Future Improvements
 - Use semantic embeddings
 - Bias reduction techniques
+
+## Code
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
